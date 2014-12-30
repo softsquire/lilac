@@ -1,7 +1,7 @@
-package com.snail.lilac.core.repository.i18n;
+package com.snail.lilac.repository.i18n;
 
-import com.snail.lilac.core.repository.i18n.I18nMessage;
-import com.snail.lilac.core.repository.i18n.I18nMessageExample;
+import com.snail.lilac.repository.i18n.I18nMessage;
+import com.snail.lilac.repository.i18n.I18nMessageExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

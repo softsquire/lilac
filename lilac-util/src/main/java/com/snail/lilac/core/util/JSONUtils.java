@@ -13,11 +13,11 @@ import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.util.JSONPObject;
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
 
 /**
- * @author andy
+ * @author Andy
  */
 public class JSONUtils {
 

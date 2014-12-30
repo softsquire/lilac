@@ -16,7 +16,7 @@
 <body>
 	<div class="row-fluid">
 		<div class="span12 center login-header">
-			<h2>Welcome to Lilac</h2>
+			<h2>Welcome to lilac framework</h2>
 		</div>
 		<!--/span-->
 	</div>
@@ -49,7 +49,7 @@
 					</div>
 					<div class="clearfix"></div>
 					<p class="center span5">
-						<button type="submit" class="btn btn-primary"><lilac:msg code="MSG_LOGIN" defaultMsg="登录"/></button>
+						<button type="submit" class="btn btn-primary"><lilac:labelDisplay code="MSG_LOGIN" defaultMsg="登录"/></button>
 					</p>
 				</fieldset>
 			</lilac:form>

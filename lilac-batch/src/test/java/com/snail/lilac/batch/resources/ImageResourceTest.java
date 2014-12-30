@@ -1,15 +1,15 @@
 package com.snail.lilac.batch.resources;
 
 import org.junit.Test;
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
 import org.springframework.core.io.Resource;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 
 /**
- * @author andy
+ * @author Andy
  */
 @DirtiesContext
 @ContextConfiguration(locations = { "/spring/applicationContext-test.xml" })

@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * @author andy
+ * @author Andy
  * @since 2013-5-15
  */
 public class ExceptionUtils {

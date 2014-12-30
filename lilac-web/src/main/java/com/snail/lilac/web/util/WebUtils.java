@@ -18,7 +18,7 @@ import com.google.common.net.HttpHeaders;
 import com.snail.lilac.core.util.EncodeUtils;
 
 /**
- * @author andy
+ * @author Andy
  * @since 2013-10-12
  */
 public class WebUtils extends org.springframework.web.util.WebUtils {
@@ -31,7 +31,8 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
      */
     public static void setExpiresHeader(HttpServletResponse response, long expiresSeconds) {
         // Http 1.0 header, set a fix expires date.
-        response.setDateHeader(HttpHeaders.EXPIRES, System.currentTimeMillis() + (expiresSeconds * 1000));
+        response.setDateHeader(HttpHeaders.EXPIRES, System.currentTimeMillis()
+                                                    + (expiresSeconds * 1000));
         // Http 1.1 header, set a time after now.
         response.setHeader(HttpHeaders.CACHE_CONTROL, "private, max-age=" + expiresSeconds);
     }
@@ -66,8 +67,8 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
      * 
      * @param lastModified 内容的最后修改时间.
      */
-    public static boolean checkIfModifiedSince(HttpServletRequest request, HttpServletResponse response,
-                                               long lastModified) {
+    public static boolean checkIfModifiedSince(HttpServletRequest request,
+                                               HttpServletResponse response, long lastModified) {
         long ifModifiedSince = request.getDateHeader(HttpHeaders.IF_MODIFIED_SINCE);
         if ((ifModifiedSince != -1) && (lastModified < (ifModifiedSince + 1000))) {
             response.setStatus(HttpServletResponse.SC_NOT_MODIFIED);
@@ -81,7 +82,8 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
      * 
      * @param etag 内容的ETag.
      */
-    public static boolean checkIfNoneMatchEtag(HttpServletRequest request, HttpServletResponse response, String etag) {
+    public static boolean checkIfNoneMatchEtag(HttpServletRequest request,
+                                               HttpServletResponse response, String etag) {
         String headerValue = request.getHeader(HttpHeaders.IF_NONE_MATCH);
         if (headerValue != null) {
             boolean conditionSatisfied = false;
@@ -116,7 +118,8 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
         try {
             // 中文文件名支持
             String encodedfileName = new String(fileName.getBytes(), "ISO8859-1");
-            response.setHeader(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + encodedfileName + "\"");
+            response.setHeader(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\""
+                                                                + encodedfileName + "\"");
         } catch (UnsupportedEncodingException e) {
         }
     }
@@ -125,7 +128,8 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
      * 取得带相同前缀的Request Parameters, copy from spring WebUtils. 返回的结果的Parameter名已去除前缀.
      */
     @SuppressWarnings(value = { "rawtypes" })
-    public static Map<String, Object> getParametersStartingWith(ServletRequest request, String prefix) {
+    public static Map<String, Object> getParametersStartingWith(ServletRequest request,
+                                                                String prefix) {
         Validate.notNull(request, "Request must not be null");
         Enumeration paramNames = request.getParameterNames();
         Map<String, Object> params = new TreeMap<String, Object>();
@@ -182,5 +186,4 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
         String encode = userName + ":" + password;
         return "Basic " + EncodeUtils.encodeBase64(encode.getBytes());
     }
-
 }

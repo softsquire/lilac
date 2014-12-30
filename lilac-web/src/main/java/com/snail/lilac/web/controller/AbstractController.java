@@ -3,15 +3,16 @@ package com.snail.lilac.web.controller;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
+
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 
 /**
- * @author andy
+ * @author Andy
  * @since 2013-5-6
  */
 public abstract class AbstractController {

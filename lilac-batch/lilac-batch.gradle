@@ -1,0 +1,15 @@
+description="Lilac batch"
+
+
+dependencies {
+    
+    compile( project( ":lilac-service" ) )
+    compile( project( ":lilac-repository" ) )
+    compile( project( ":lilac-model" ) )
+    compile( project( ":lilac-util" ) )
+    compile( libraries.spring_batch )
+    compile( libraries.quartz )
+    
+    testCompile( libraries.junit )
+    
+}

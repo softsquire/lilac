@@ -1,13 +1,13 @@
 package com.snail.lilac.batch.sample.csv;
 
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.listener.JobExecutionListenerSupport;
 import org.springframework.stereotype.Component;
 
 /**
- * @author andy
+ * @author Andy
  */
 @Component("csvJobListener")
 public class CSVJobListener extends JobExecutionListenerSupport {

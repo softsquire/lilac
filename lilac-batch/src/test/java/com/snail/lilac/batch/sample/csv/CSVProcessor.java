@@ -1,12 +1,12 @@
 package com.snail.lilac.batch.sample.csv;
 
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
 import org.springframework.batch.item.adapter.ItemProcessorAdapter;
 import org.springframework.stereotype.Component;
 
 /**
- * @author andy
+ * @author Andy
  */
 @Component("csvProcessor")
 public class CSVProcessor extends ItemProcessorAdapter<CSVData, CSVData> {

@@ -11,13 +11,13 @@
 			connectionURL="jdbc:oracle:thin:@andy-pc:1521:andy" userId="lilac"
 			password="lilac" />
 		<javaModelGenerator targetPackage="com.snail.lilac.core.repository.security"
-			targetProject="lilac-repository" />
+			targetProject="lilac-test" />
 		<sqlMapGenerator targetPackage="com.snail.lilac.core.repository.security"
-			targetProject="lilac-repository" />
+			targetProject="lilac-test" />
 		<javaClientGenerator targetPackage="com.snail.lilac.core.repository.security"
-			targetProject="lilac-repository"
+			targetProject="lilac-test"
 			type="XMLMAPPER" />
-		<table schema="lilac" tableName="user_info">
+		<table schema="lilac" tableName="i18n_message">
 		</table>
 	</context>
 </generatorConfiguration>

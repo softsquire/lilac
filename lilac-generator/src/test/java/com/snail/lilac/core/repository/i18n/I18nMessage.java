@@ -1,4 +1,4 @@
-package com.snail.lilac.core.repository.i18n;
+package com.snail.lilac.repository.i18n;
 
 import java.util.Date;
 

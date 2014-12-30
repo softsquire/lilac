@@ -6,7 +6,7 @@ import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 
 /**
- * @author andy
+ * @author Andy
  * @since 2013-6-27
  */
 public class CustomAuthenticationFilter extends FormAuthenticationFilter {

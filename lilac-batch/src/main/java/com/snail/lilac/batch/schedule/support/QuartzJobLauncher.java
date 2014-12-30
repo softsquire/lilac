@@ -5,8 +5,8 @@ import java.util.Map;
 
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.JobInstance;
@@ -21,7 +21,7 @@ import org.springframework.batch.core.launch.JobParametersNotFoundException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
 /**
- * @author andy
+ * @author Andy
  */
 public class QuartzJobLauncher extends QuartzJobBean {
 

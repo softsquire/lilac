@@ -2,16 +2,17 @@ package com.snail.lilac.batch.sample.csv;
 
 import java.util.List;
 
-import com.snail.lilac.core.logging.Logger;
-import com.snail.lilac.core.logging.LoggerFactory;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.retry.RetryCallback;
 import org.springframework.retry.RetryContext;
 import org.springframework.retry.support.RetryTemplate;
 
+import com.snail.lilac.logging.Logger;
+import com.snail.lilac.logging.LoggerFactory;
+
 /**
- * @author andy
+ * @author Andy
  */
 public class CSVWriter extends FlatFileItemWriter<CSVData> {
 
