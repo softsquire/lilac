@@ -99,7 +99,7 @@ subprojects { subProject ->
         systemProperties += System.properties.findAll { it.key.startsWith( "lilac.") }
         maxHeapSize = "1024m"
         // Not strictly needed but useful to attach a profiler:
-        jvmArgs '-XX:MaxPermSize=256m'
+        jvmArgs '-XX:MetaspaceSize=256m'
     }
 
     processTestResources.doLast( {

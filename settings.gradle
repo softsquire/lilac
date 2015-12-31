@@ -5,7 +5,8 @@ include "lilac-model"
 include "lilac-repository"
 include "lilac-workflow"
 include "lilac-service"
-include "lilac-batch"
+/*include "lilac-batch"*/
+include "lilac-mq"
 include "lilac-web"
 /*include "lilac-test"*/
 

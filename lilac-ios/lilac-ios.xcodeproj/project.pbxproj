@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A171BA521BB2F4610010660C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171BA511BB2F4610010660C /* AppDelegate.swift */; };
+		A171BA541BB2F4610010660C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171BA531BB2F4610010660C /* MasterViewController.swift */; };
+		A171BA561BB2F4610010660C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171BA551BB2F4610010660C /* DetailViewController.swift */; };
+		A171BA591BB2F4610010660C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A171BA571BB2F4610010660C /* Main.storyboard */; };
+		A171BA5B1BB2F4610010660C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A171BA5A1BB2F4610010660C /* Assets.xcassets */; };
+		A171BA5E1BB2F4610010660C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A171BA5C1BB2F4610010660C /* LaunchScreen.storyboard */; };
+		A171BA691BB2F4620010660C /* lilac_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171BA681BB2F4620010660C /* lilac_iosTests.swift */; };
+		A171BA741BB2F4620010660C /* lilac_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171BA731BB2F4620010660C /* lilac_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A171BA651BB2F4620010660C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A171BA461BB2F4610010660C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A171BA4D1BB2F4610010660C;
+			remoteInfo = "lilac-ios";
+		};
+		A171BA701BB2F4620010660C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A171BA461BB2F4610010660C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A171BA4D1BB2F4610010660C;
+			remoteInfo = "lilac-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A171BA4E1BB2F4610010660C /* lilac-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lilac-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A171BA511BB2F4610010660C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A171BA531BB2F4610010660C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A171BA551BB2F4610010660C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A171BA581BB2F4610010660C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A171BA5A1BB2F4610010660C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A171BA5D1BB2F4610010660C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A171BA5F1BB2F4610010660C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A171BA641BB2F4620010660C /* lilac-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lilac-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A171BA681BB2F4620010660C /* lilac_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lilac_iosTests.swift; sourceTree = "<group>"; };
+		A171BA6A1BB2F4620010660C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A171BA6F1BB2F4620010660C /* lilac-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lilac-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A171BA731BB2F4620010660C /* lilac_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lilac_iosUITests.swift; sourceTree = "<group>"; };
+		A171BA751BB2F4620010660C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A171BA4B1BB2F4610010660C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA611BB2F4620010660C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA6C1BB2F4620010660C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A171BA451BB2F4610010660C = {
+			isa = PBXGroup;
+			children = (
+				A171BA501BB2F4610010660C /* lilac-ios */,
+				A171BA671BB2F4620010660C /* lilac-iosTests */,
+				A171BA721BB2F4620010660C /* lilac-iosUITests */,
+				A171BA4F1BB2F4610010660C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A171BA4F1BB2F4610010660C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A171BA4E1BB2F4610010660C /* lilac-ios.app */,
+				A171BA641BB2F4620010660C /* lilac-iosTests.xctest */,
+				A171BA6F1BB2F4620010660C /* lilac-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A171BA501BB2F4610010660C /* lilac-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A171BA511BB2F4610010660C /* AppDelegate.swift */,
+				A171BA531BB2F4610010660C /* MasterViewController.swift */,
+				A171BA551BB2F4610010660C /* DetailViewController.swift */,
+				A171BA571BB2F4610010660C /* Main.storyboard */,
+				A171BA5A1BB2F4610010660C /* Assets.xcassets */,
+				A171BA5C1BB2F4610010660C /* LaunchScreen.storyboard */,
+				A171BA5F1BB2F4610010660C /* Info.plist */,
+			);
+			path = "lilac-ios";
+			sourceTree = "<group>";
+		};
+		A171BA671BB2F4620010660C /* lilac-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A171BA681BB2F4620010660C /* lilac_iosTests.swift */,
+				A171BA6A1BB2F4620010660C /* Info.plist */,
+			);
+			path = "lilac-iosTests";
+			sourceTree = "<group>";
+		};
+		A171BA721BB2F4620010660C /* lilac-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A171BA731BB2F4620010660C /* lilac_iosUITests.swift */,
+				A171BA751BB2F4620010660C /* Info.plist */,
+			);
+			path = "lilac-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A171BA4D1BB2F4610010660C /* lilac-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A171BA781BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-ios" */;
+			buildPhases = (
+				A171BA4A1BB2F4610010660C /* Sources */,
+				A171BA4B1BB2F4610010660C /* Frameworks */,
+				A171BA4C1BB2F4610010660C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lilac-ios";
+			productName = "lilac-ios";
+			productReference = A171BA4E1BB2F4610010660C /* lilac-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A171BA631BB2F4620010660C /* lilac-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A171BA7B1BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-iosTests" */;
+			buildPhases = (
+				A171BA601BB2F4620010660C /* Sources */,
+				A171BA611BB2F4620010660C /* Frameworks */,
+				A171BA621BB2F4620010660C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A171BA661BB2F4620010660C /* PBXTargetDependency */,
+			);
+			name = "lilac-iosTests";
+			productName = "lilac-iosTests";
+			productReference = A171BA641BB2F4620010660C /* lilac-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A171BA6E1BB2F4620010660C /* lilac-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A171BA7E1BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-iosUITests" */;
+			buildPhases = (
+				A171BA6B1BB2F4620010660C /* Sources */,
+				A171BA6C1BB2F4620010660C /* Frameworks */,
+				A171BA6D1BB2F4620010660C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A171BA711BB2F4620010660C /* PBXTargetDependency */,
+			);
+			name = "lilac-iosUITests";
+			productName = "lilac-iosUITests";
+			productReference = A171BA6F1BB2F4620010660C /* lilac-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A171BA461BB2F4610010660C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "andy-mac";
+				TargetAttributes = {
+					A171BA4D1BB2F4610010660C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A171BA631BB2F4620010660C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A171BA4D1BB2F4610010660C;
+					};
+					A171BA6E1BB2F4620010660C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A171BA4D1BB2F4610010660C;
+					};
+				};
+			};
+			buildConfigurationList = A171BA491BB2F4610010660C /* Build configuration list for PBXProject "lilac-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A171BA451BB2F4610010660C;
+			productRefGroup = A171BA4F1BB2F4610010660C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A171BA4D1BB2F4610010660C /* lilac-ios */,
+				A171BA631BB2F4620010660C /* lilac-iosTests */,
+				A171BA6E1BB2F4620010660C /* lilac-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A171BA4C1BB2F4610010660C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171BA5E1BB2F4610010660C /* LaunchScreen.storyboard in Resources */,
+				A171BA5B1BB2F4610010660C /* Assets.xcassets in Resources */,
+				A171BA591BB2F4610010660C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA621BB2F4620010660C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA6D1BB2F4620010660C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A171BA4A1BB2F4610010660C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171BA561BB2F4610010660C /* DetailViewController.swift in Sources */,
+				A171BA541BB2F4610010660C /* MasterViewController.swift in Sources */,
+				A171BA521BB2F4610010660C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA601BB2F4620010660C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171BA691BB2F4620010660C /* lilac_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171BA6B1BB2F4620010660C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171BA741BB2F4620010660C /* lilac_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A171BA661BB2F4620010660C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A171BA4D1BB2F4610010660C /* lilac-ios */;
+			targetProxy = A171BA651BB2F4620010660C /* PBXContainerItemProxy */;
+		};
+		A171BA711BB2F4620010660C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A171BA4D1BB2F4610010660C /* lilac-ios */;
+			targetProxy = A171BA701BB2F4620010660C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A171BA571BB2F4610010660C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A171BA581BB2F4610010660C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A171BA5C1BB2F4610010660C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A171BA5D1BB2F4610010660C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A171BA761BB2F4620010660C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A171BA771BB2F4620010660C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A171BA791BB2F4620010660C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lilac-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A171BA7A1BB2F4620010660C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lilac-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A171BA7C1BB2F4620010660C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lilac-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lilac-ios.app/lilac-ios";
+			};
+			name = Debug;
+		};
+		A171BA7D1BB2F4620010660C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lilac-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lilac-ios.app/lilac-ios";
+			};
+			name = Release;
+		};
+		A171BA7F1BB2F4620010660C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lilac-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lilac-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A171BA801BB2F4620010660C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lilac-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "snail.com.lilac-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lilac-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A171BA491BB2F4610010660C /* Build configuration list for PBXProject "lilac-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A171BA761BB2F4620010660C /* Debug */,
+				A171BA771BB2F4620010660C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A171BA781BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A171BA791BB2F4620010660C /* Debug */,
+				A171BA7A1BB2F4620010660C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A171BA7B1BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A171BA7C1BB2F4620010660C /* Debug */,
+				A171BA7D1BB2F4620010660C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A171BA7E1BB2F4620010660C /* Build configuration list for PBXNativeTarget "lilac-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A171BA7F1BB2F4620010660C /* Debug */,
+				A171BA801BB2F4620010660C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A171BA461BB2F4610010660C /* Project object */;
+}

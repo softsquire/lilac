@@ -1,6 +1,6 @@
 ext {
     junitVersion  	= '4.11'
-    springVersion 	= '4.1.2.RELEASE'
+    springVersion 	= '4.2.4.RELEASE'
 
     libraries = [
         // Validation api
@@ -11,18 +11,21 @@ ext {
         junit:                  'junit:junit:4.11',
 
         // Spring
-        spring_core:            'org.springframework:spring-core:4.1.2.RELEASE',
-        spring_beans:           'org.springframework:spring-beans:4.1.2.RELEASE',
-        spring_context:         'org.springframework:spring-context:4.1.2.RELEASE',
-        spring_context_support: 'org.springframework:spring-context-support:4.1.2.RELEASE',
-        spring_orm:             'org.springframework:spring-orm:4.1.2.RELEASE',
-        spring_jdbc:            'org.springframework:spring-jdbc:4.1.2.RELEASE',
-        spring_tx:              'org.springframework:spring-tx:4.1.2.RELEASE',
+        spring_core:            'org.springframework:spring-core:4.2.4.RELEASE',
+        spring_beans:           'org.springframework:spring-beans:4.2.4.RELEASE',
+        spring_context:         'org.springframework:spring-context:4.2.4.RELEASE',
+        spring_context_support: 'org.springframework:spring-context-support:4.2.4.RELEASE',
+        spring_orm:             'org.springframework:spring-orm:4.2.4.RELEASE',
+        spring_jdbc:            'org.springframework:spring-jdbc:4.2.4.RELEASE',
+        spring_jms:            'org.springframework:spring-jms:4.2.4.RELEASE',
+        spring_tx:              'org.springframework:spring-tx:4.2.4.RELEASE',
         spring_data_jpa:        'org.springframework.data:spring-data-jpa:1.4.1.RELEASE',
-        spring_webmvc:          'org.springframework:spring-webmvc:4.1.2.RELEASE',
-        spring_test:            'org.springframework:spring-test:4.1.2.RELEASE',
+        spring_webmvc:          'org.springframework:spring-webmvc:4.2.4.RELEASE',
+        spring_test:            'org.springframework:spring-test:4.2.4.RELEASE',
         spring_batch:          'org.springframework.batch:spring-batch-core:2.2.5.RELEASE',
         
+        //Activemq
+        activemq_all:           'org.apache.activemq:activemq-all:5.13.0',
 
         // Mybatis
         mybatis:                'org.mybatis:mybatis:3.2.8',
