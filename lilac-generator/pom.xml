@@ -16,7 +16,7 @@
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
 		<lilac.version>1.0.0-SNAPSHOT</lilac.version>
-		<antVersion>1.8.4</antVersion>
+		<antVersion>1.10.11</antVersion>
 		<log4jVersion>1.2.17</log4jVersion>
 	</properties>
 	<!-- 依赖项定义 -->
