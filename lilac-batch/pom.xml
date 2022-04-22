@@ -16,7 +16,7 @@
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
 		<lilac.version>1.0.0-SNAPSHOT</lilac.version>
-		<spring.version>4.0.2.RELEASE</spring.version>
+		<spring.version>5.3.19</spring.version>
 		<spring.batch.version>2.2.5.RELEASE</spring.batch.version>
 		<slf4j.version>1.7.2</slf4j.version>
 		<logback.version>1.0.9</logback.version>
