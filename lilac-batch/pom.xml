@@ -27,7 +27,7 @@
 		<ehcache.version>2.6.6</ehcache.version>
 		<commons-codec.version>1.7</commons-codec.version>
 		<guava.version>15.0</guava.version>
-		<jackson.version>2.9.10.7</jackson.version>
+		<jackson.version>2.12.7.1</jackson.version>
 		<quartz.version>2.2.1</quartz.version>
 
 		<!-- Plugin的属性定义 -->
